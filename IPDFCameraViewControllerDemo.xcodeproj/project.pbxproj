@@ -13,21 +13,11 @@
 		22F8A0181A6279030099DC69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22F8A0161A6279030099DC69 /* Main.storyboard */; };
 		22F8A01A1A6279030099DC69 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22F8A0191A6279030099DC69 /* Images.xcassets */; };
 		22F8A01D1A6279030099DC69 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22F8A01B1A6279030099DC69 /* LaunchScreen.xib */; };
-		22F8A0291A6279040099DC69 /* IPDFCameraViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F8A0281A6279040099DC69 /* IPDFCameraViewControllerTests.m */; };
+		22F8A0351A62799E0099DC69 /* IPDFCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F8A0341A62799E0099DC69 /* IPDFCameraViewController.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		22F8A0231A6279030099DC69 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 22F8A0011A6279030099DC69 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 22F8A0081A6279030099DC69;
-			remoteInfo = IPDFCameraViewController;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		22F8A0091A6279030099DC69 /* IPDFCameraViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPDFCameraViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22F8A0091A6279030099DC69 /* IPDFCameraViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPDFCameraViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22F8A00D1A6279030099DC69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22F8A00E1A6279030099DC69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		22F8A0101A6279030099DC69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -37,20 +27,12 @@
 		22F8A0171A6279030099DC69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22F8A0191A6279030099DC69 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		22F8A01C1A6279030099DC69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		22F8A0221A6279030099DC69 /* IPDFCameraViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IPDFCameraViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		22F8A0271A6279040099DC69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		22F8A0281A6279040099DC69 /* IPDFCameraViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPDFCameraViewControllerTests.m; sourceTree = "<group>"; };
+		22F8A0331A62799E0099DC69 /* IPDFCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPDFCameraViewController.h; sourceTree = "<group>"; };
+		22F8A0341A62799E0099DC69 /* IPDFCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPDFCameraViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		22F8A0061A6279030099DC69 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		22F8A01F1A6279030099DC69 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -63,8 +45,7 @@
 		22F8A0001A6279030099DC69 = {
 			isa = PBXGroup;
 			children = (
-				22F8A00B1A6279030099DC69 /* IPDFCameraViewController */,
-				22F8A0251A6279040099DC69 /* IPDFCameraViewControllerTests */,
+				22F8A00B1A6279030099DC69 /* IPDFCameraViewControllerDemo */,
 				22F8A00A1A6279030099DC69 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,24 +53,25 @@
 		22F8A00A1A6279030099DC69 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				22F8A0091A6279030099DC69 /* IPDFCameraViewController.app */,
-				22F8A0221A6279030099DC69 /* IPDFCameraViewControllerTests.xctest */,
+				22F8A0091A6279030099DC69 /* IPDFCameraViewControllerDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		22F8A00B1A6279030099DC69 /* IPDFCameraViewController */ = {
+		22F8A00B1A6279030099DC69 /* IPDFCameraViewControllerDemo */ = {
 			isa = PBXGroup;
 			children = (
 				22F8A0101A6279030099DC69 /* AppDelegate.h */,
 				22F8A0111A6279030099DC69 /* AppDelegate.m */,
 				22F8A0131A6279030099DC69 /* ViewController.h */,
 				22F8A0141A6279030099DC69 /* ViewController.m */,
+				22F8A0321A6279850099DC69 /* IPDFCameraViewController */,
 				22F8A0161A6279030099DC69 /* Main.storyboard */,
-				22F8A0191A6279030099DC69 /* Images.xcassets */,
 				22F8A01B1A6279030099DC69 /* LaunchScreen.xib */,
+				22F8A0191A6279030099DC69 /* Images.xcassets */,
 				22F8A00C1A6279030099DC69 /* Supporting Files */,
 			);
+			name = IPDFCameraViewControllerDemo;
 			path = IPDFCameraViewController;
 			sourceTree = "<group>";
 		};
@@ -102,29 +84,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		22F8A0251A6279040099DC69 /* IPDFCameraViewControllerTests */ = {
+		22F8A0321A6279850099DC69 /* IPDFCameraViewController */ = {
 			isa = PBXGroup;
 			children = (
-				22F8A0281A6279040099DC69 /* IPDFCameraViewControllerTests.m */,
-				22F8A0261A6279040099DC69 /* Supporting Files */,
+				22F8A0331A62799E0099DC69 /* IPDFCameraViewController.h */,
+				22F8A0341A62799E0099DC69 /* IPDFCameraViewController.m */,
 			);
-			path = IPDFCameraViewControllerTests;
-			sourceTree = "<group>";
-		};
-		22F8A0261A6279040099DC69 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				22F8A0271A6279040099DC69 /* Info.plist */,
-			);
-			name = "Supporting Files";
+			name = IPDFCameraViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		22F8A0081A6279030099DC69 /* IPDFCameraViewController */ = {
+		22F8A0081A6279030099DC69 /* IPDFCameraViewControllerDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 22F8A02C1A6279040099DC69 /* Build configuration list for PBXNativeTarget "IPDFCameraViewController" */;
+			buildConfigurationList = 22F8A02C1A6279040099DC69 /* Build configuration list for PBXNativeTarget "IPDFCameraViewControllerDemo" */;
 			buildPhases = (
 				22F8A0051A6279030099DC69 /* Sources */,
 				22F8A0061A6279030099DC69 /* Frameworks */,
@@ -134,28 +108,10 @@
 			);
 			dependencies = (
 			);
-			name = IPDFCameraViewController;
+			name = IPDFCameraViewControllerDemo;
 			productName = IPDFCameraViewController;
-			productReference = 22F8A0091A6279030099DC69 /* IPDFCameraViewController.app */;
+			productReference = 22F8A0091A6279030099DC69 /* IPDFCameraViewControllerDemo.app */;
 			productType = "com.apple.product-type.application";
-		};
-		22F8A0211A6279030099DC69 /* IPDFCameraViewControllerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 22F8A02F1A6279040099DC69 /* Build configuration list for PBXNativeTarget "IPDFCameraViewControllerTests" */;
-			buildPhases = (
-				22F8A01E1A6279030099DC69 /* Sources */,
-				22F8A01F1A6279030099DC69 /* Frameworks */,
-				22F8A0201A6279030099DC69 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				22F8A0241A6279030099DC69 /* PBXTargetDependency */,
-			);
-			name = IPDFCameraViewControllerTests;
-			productName = IPDFCameraViewControllerTests;
-			productReference = 22F8A0221A6279030099DC69 /* IPDFCameraViewControllerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -169,13 +125,9 @@
 					22F8A0081A6279030099DC69 = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
-					22F8A0211A6279030099DC69 = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = 22F8A0081A6279030099DC69;
-					};
 				};
 			};
-			buildConfigurationList = 22F8A0041A6279030099DC69 /* Build configuration list for PBXProject "IPDFCameraViewController" */;
+			buildConfigurationList = 22F8A0041A6279030099DC69 /* Build configuration list for PBXProject "IPDFCameraViewControllerDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -188,8 +140,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				22F8A0081A6279030099DC69 /* IPDFCameraViewController */,
-				22F8A0211A6279030099DC69 /* IPDFCameraViewControllerTests */,
+				22F8A0081A6279030099DC69 /* IPDFCameraViewControllerDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -205,13 +156,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		22F8A0201A6279030099DC69 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -219,29 +163,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22F8A0351A62799E0099DC69 /* IPDFCameraViewController.m in Sources */,
 				22F8A0151A6279030099DC69 /* ViewController.m in Sources */,
 				22F8A0121A6279030099DC69 /* AppDelegate.m in Sources */,
 				22F8A00F1A6279030099DC69 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		22F8A01E1A6279030099DC69 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				22F8A0291A6279040099DC69 /* IPDFCameraViewControllerTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		22F8A0241A6279030099DC69 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 22F8A0081A6279030099DC69 /* IPDFCameraViewController */;
-			targetProxy = 22F8A0231A6279030099DC69 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		22F8A0161A6279030099DC69 /* Main.storyboard */ = {
@@ -297,7 +226,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -332,7 +261,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -345,7 +274,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = IPDFCameraViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = IPDFCameraViewControllerDemo;
 			};
 			name = Debug;
 		};
@@ -355,48 +284,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = IPDFCameraViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		22F8A0301A6279040099DC69 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = IPDFCameraViewControllerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IPDFCameraViewController.app/IPDFCameraViewController";
-			};
-			name = Debug;
-		};
-		22F8A0311A6279040099DC69 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = IPDFCameraViewControllerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IPDFCameraViewController.app/IPDFCameraViewController";
+				PRODUCT_NAME = IPDFCameraViewControllerDemo;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		22F8A0041A6279030099DC69 /* Build configuration list for PBXProject "IPDFCameraViewController" */ = {
+		22F8A0041A6279030099DC69 /* Build configuration list for PBXProject "IPDFCameraViewControllerDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				22F8A02A1A6279040099DC69 /* Debug */,
@@ -405,19 +300,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		22F8A02C1A6279040099DC69 /* Build configuration list for PBXNativeTarget "IPDFCameraViewController" */ = {
+		22F8A02C1A6279040099DC69 /* Build configuration list for PBXNativeTarget "IPDFCameraViewControllerDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				22F8A02D1A6279040099DC69 /* Debug */,
 				22F8A02E1A6279040099DC69 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		22F8A02F1A6279040099DC69 /* Build configuration list for PBXNativeTarget "IPDFCameraViewControllerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				22F8A0301A6279040099DC69 /* Debug */,
-				22F8A0311A6279040099DC69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

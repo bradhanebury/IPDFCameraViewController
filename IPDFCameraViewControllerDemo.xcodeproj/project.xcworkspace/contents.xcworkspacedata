@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:IPDFCameraViewController.xcodeproj">
+      location = "self:IPDFCameraViewControllerDemo.xcodeproj">
    </FileRef>
 </Workspace>

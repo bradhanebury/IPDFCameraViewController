@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "22F8A0081A6279030099DC69"
-               BuildableName = "IPDFCameraViewController.app"
-               BlueprintName = "IPDFCameraViewController"
-               ReferencedContainer = "container:IPDFCameraViewController.xcodeproj">
+               BuildableName = "IPDFCameraViewControllerDemo.app"
+               BlueprintName = "IPDFCameraViewControllerDemo"
+               ReferencedContainer = "container:IPDFCameraViewControllerDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "22F8A0211A6279030099DC69"
-               BuildableName = "IPDFCameraViewControllerTests.xctest"
-               BlueprintName = "IPDFCameraViewControllerTests"
-               ReferencedContainer = "container:IPDFCameraViewController.xcodeproj">
+               BuildableName = "IPDFCameraViewControllerDemoTests.xctest"
+               BlueprintName = "IPDFCameraViewControllerDemoTests"
+               ReferencedContainer = "container:IPDFCameraViewControllerDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "22F8A0211A6279030099DC69"
-               BuildableName = "IPDFCameraViewControllerTests.xctest"
-               BlueprintName = "IPDFCameraViewControllerTests"
-               ReferencedContainer = "container:IPDFCameraViewController.xcodeproj">
+               BuildableName = "IPDFCameraViewControllerDemoTests.xctest"
+               BlueprintName = "IPDFCameraViewControllerDemoTests"
+               ReferencedContainer = "container:IPDFCameraViewControllerDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "22F8A0081A6279030099DC69"
-            BuildableName = "IPDFCameraViewController.app"
-            BlueprintName = "IPDFCameraViewController"
-            ReferencedContainer = "container:IPDFCameraViewController.xcodeproj">
+            BuildableName = "IPDFCameraViewControllerDemo.app"
+            BlueprintName = "IPDFCameraViewControllerDemo"
+            ReferencedContainer = "container:IPDFCameraViewControllerDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "22F8A0081A6279030099DC69"
-            BuildableName = "IPDFCameraViewController.app"
-            BlueprintName = "IPDFCameraViewController"
-            ReferencedContainer = "container:IPDFCameraViewController.xcodeproj">
+            BuildableName = "IPDFCameraViewControllerDemo.app"
+            BlueprintName = "IPDFCameraViewControllerDemo"
+            ReferencedContainer = "container:IPDFCameraViewControllerDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "22F8A0081A6279030099DC69"
-            BuildableName = "IPDFCameraViewController.app"
-            BlueprintName = "IPDFCameraViewController"
-            ReferencedContainer = "container:IPDFCameraViewController.xcodeproj">
+            BuildableName = "IPDFCameraViewControllerDemo.app"
+            BlueprintName = "IPDFCameraViewControllerDemo"
+            ReferencedContainer = "container:IPDFCameraViewControllerDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

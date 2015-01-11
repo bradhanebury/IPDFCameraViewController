@@ -1,4 +1,4 @@
-![Screenshot][https://raw.githubusercontent.com/mmackh/IPDFCameraViewController/master/mockup.png]
+![Screenshot](https://raw.githubusercontent.com/mmackh/IPDFCameraViewController/master/mockup.png)
 
 # IPDFCameraViewController
 
